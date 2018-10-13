@@ -152,8 +152,7 @@ while login is True:
         rows = cursor.fetchall()
         print ("Playlists : ")
         for row in rows:
-           print (" - " , row[0])
-        print ("\n")
+           print (" - " , row[0], "\n")
 
         playlistadd = input("What Playlist would you like to delete your song from? :")
         songname = input("What song would you like to delete? : ")
